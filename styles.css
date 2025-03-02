@@ -1,0 +1,76 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.table th {
+    background-color: #f1f4f6;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.table-responsive {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.positive-status {
+    color: #27ae60;
+    font-weight: 500;
+}
+
+.negative-status {
+    color: #e74c3c;
+    font-weight: 500;
+}
+
+.money-value {
+    font-family: monospace;
+    text-align: right;
+}
+
+/* Custom styles for the retirement calculator */
+
+/* Add some spacing between form sections */
+.form-section {
+    margin-bottom: 2rem;
+}
+
+/* Make the table more readable */
+.table {
+    font-size: 0.9rem;
+}
+
+/* Highlight retirement year */
+tr:has(td:nth-child(3):contains('Retired')):first-of-type {
+    background-color: #e8f5e9 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table {
+        font-size: 0.8rem;
+    }
+} 
